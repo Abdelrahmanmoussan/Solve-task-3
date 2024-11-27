@@ -84,7 +84,7 @@
             public void ReturnBook(string Title)
             {
                 Book book = SearchBook(Title);
-                if (book != null && !book.Availability)
+                if (book != null && book.Availability)
                 {
                     book.Availability = true;
                     Console.WriteLine($"You have returned the book: {book.Title}");
