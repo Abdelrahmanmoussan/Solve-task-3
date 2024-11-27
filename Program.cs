@@ -1,9 +1,7 @@
 ﻿namespace Solve_task_3
 {
 
-    //using System.Security.Cryptography.X509Certificates;
 
-    //{
 
 
 
